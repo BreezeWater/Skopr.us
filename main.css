@@ -1,0 +1,22 @@
+body {
+    background: #e3e3e3
+}
+
+#wrapper {
+    background: white;
+    max-width: 960px;
+    min-height: 960px;
+    margin: 0 auto;
+    padding: 0 3%; 
+}
+
+
+nav {
+    background-color: darkolivegreen;
+    padding: 0;
+
+}
+
+nav a {
+    text-decoration: none;\
+}
