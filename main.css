@@ -7,16 +7,35 @@ body {
     max-width: 960px;
     min-height: 960px;
     margin: 0 auto;
-    padding: 0 3%; 
+    padding: 0; 
 }
 
 
 nav {
     background-color: darkolivegreen;
     padding: 0;
+    margin: 0;
 
 }
 
-nav a {
-    text-decoration: none;\
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#main_nav li {
+    display: inline;
+    margin: 0 auto;
+    padding: 0 3%;
+    font-size: 18px;
+    text-align: center;
+}
+
+#body {
+    margin: 0 3%;
+}
+
+#footer {
+    font-size: 75%;
+    margin: 5%;
 }
